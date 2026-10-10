@@ -1,0 +1,17 @@
+{
+  "executive": [
+    { "id": "president", "name": "Saksham Kushwah", "role": "President", "accent": "pink", "photo": "", "hairstyle": 0 },
+    { "id": "vice-president", "name": "Nishit Rane", "role": "Vice President", "accent": "cyan", "photo": "", "hairstyle": 1 }
+  ],
+  "leads": [
+    { "id": "technical-lead", "name": "Abhijeet Nagar", "role": "Technical Lead", "domain": "Technical", "accent": "pink", "photo": "", "hairstyle": 2 },
+    { "id": "event-management-lead", "name": "Charan Raj Gupta", "role": "Event Management Lead", "domain": "Event Management", "accent": "cyan", "photo": "", "hairstyle": 3 },
+    { "id": "social-media-lead", "name": "Nitish Yadav", "role": "Social Media Lead", "domain": "Social Media", "accent": "purple", "photo": "", "hairstyle": 4 }
+  ],
+  "domains": [
+    { "id": "app-development", "name": "App Development", "accent": "pink", "icon": "▣", "members": [] },
+    { "id": "web-development", "name": "Web Development", "accent": "cyan", "icon": "‹/›", "members": [] },
+    { "id": "deep-learning", "name": "Deep Learning", "accent": "purple", "icon": "✳", "members": [] },
+    { "id": "esports", "name": "Esports", "accent": "gold", "icon": "✦", "members": [] }
+  ]
+}
