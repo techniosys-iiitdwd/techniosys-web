@@ -81,7 +81,7 @@ const Navbar = () => {
           </Link>
           {/* Past Events */}
           <Link
-            href="#past-events"
+            href="/#past-events"
             className="
               px-4 py-2.5
               rounded-lg
@@ -192,7 +192,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="#past-events"
+            href="/#past-events"
             onClick={() => setMobileMenuOpen(false)}
             className="
               block

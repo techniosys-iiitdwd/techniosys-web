@@ -38,18 +38,18 @@ function InstagramIcon({ className = "w-3.5 h-3.5" }: { className?: string }) {
 }
 
 const CLUB_DOMAINS = [
-  {
-    id: "app-development",
-    eyebrow: "MOBILE & APPS",
-    title: "App Development",
-    description:
-      "Building innovative mobile and cross-platform applications that solve real-world problems.",
-    accent: "pink",
-    icon: "▣",
-    image:
-      "/images/app.png",
-    alt: "App Development",
-  },
+  // {
+  //   id: "app-development",
+  //   eyebrow: "MOBILE & APPS",
+  //   title: "App Development",
+  //   description:
+  //     "Building innovative mobile and cross-platform applications that solve real-world problems.",
+  //   accent: "pink",
+  //   icon: "▣",
+  //   image:
+  //     "/images/app.png",
+  //   alt: "App Development",
+  // },
   {
     id: "web-development",
     eyebrow: "WEB & PLATFORMS",
@@ -110,7 +110,7 @@ export function PhaseTeam({ onRestart }: PhaseTeamProps) {
           </p>
         </header>
 
-        <div className="mt-9 grid w-full grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-9 grid w-full grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {CLUB_DOMAINS.map((domain) => {
             const accent =
               domain.accent === "pink"

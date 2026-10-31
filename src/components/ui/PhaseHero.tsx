@@ -17,7 +17,7 @@ export function PhaseHero(_props: PhaseHeroProps) {
         <div className="absolute -inset-10 -z-10 bg-radial from-[#07090e]/80 via-[#07090e]/50 to-transparent blur-2xl pointer-events-none rounded-3xl" />
 
         {/* Title: TECHNIOSYS */}
-        <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black font-heading tracking-wider uppercase text-white drop-shadow-[0_4px_24px_rgba(0,0,0,0.95)]">
+        <h1 className="text-4xl sm:text-7xl md:text-8xl lg:text-9xl font-black font-heading tracking-wider uppercase text-white drop-shadow-[0_4px_24px_rgba(0,0,0,0.95)]">
           TECHNIO<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00f0ff] via-[#38bdf8] to-[#ff0055]">SYS</span>
         </h1>
 
@@ -71,16 +71,15 @@ export function PhaseHero(_props: PhaseHeroProps) {
         </div>
 
         {/* Register for the upcoming mega rush event */}
-        {/* <div className="flex items-center justify-center gap-5 pointer-events-auto">
+        <div className="flex items-center justify-center gap-5 pointer-events-auto">
         <a
-          href="https://forms.gle/PEEuswnfL1jV5j3j8"
-          target="_blank"
+          href="/techno-rush"
           rel="noopener noreferrer"
           className="mt-10 inline-block px-5 py-3 sm:px-6 sm:py-3 rounded-lg bg-gradient-to-r from-[#00f0ff] via-[#38bdf8] to-[#ff0055] text-white font-semibold text-sm sm:text-base tracking-wide shadow-[0_0_18px_rgba(0,240,255,0.2)] backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_22px_rgba(0,240,255,0.3)]"
         >
-          Registration for Mega Rush 2.0 is live!
+          Register for TechnoRush4.0!
         </a>
-        </div> */}
+        </div>
         
 
 {/* Key Club Stats Bar */}

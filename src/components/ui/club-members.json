@@ -9,9 +9,8 @@
     { "id": "social-media-lead", "name": "Nitish Yadav", "role": "Social Media Lead", "domain": "Social Media", "accent": "purple", "photo": "", "hairstyle": 4 }
   ],
   "domains": [
-    { "id": "app-development", "name": "App Development", "accent": "pink", "icon": "▣", "members": [] },
+    { "id": "esports", "name": "Esports", "accent": "gold", "icon": "✦", "members": [] },
     { "id": "web-development", "name": "Web Development", "accent": "cyan", "icon": "‹/›", "members": [] },
-    { "id": "deep-learning", "name": "Deep Learning", "accent": "purple", "icon": "✳", "members": [] },
-    { "id": "esports", "name": "Esports", "accent": "gold", "icon": "✦", "members": [] }
+    { "id": "deep-learning", "name": "Deep Learning", "accent": "purple", "icon": "✳", "members": [] }
   ]
 }
