@@ -43,18 +43,23 @@ const responses = [
   {
     status: '200 OK',
     color: CYAN,
-    body: '{\n  "clue": "Look in the headers, hunter",\n  "next": "/api/level/2"\n}',
+    body: '{\n  "clue": "You cracked the level ?",\n  "next": "<given-url>/api/1"\n}',
   },
   {
     status: '401 UNAUTHORIZED',
     color: ORANGE,
-    body: '{\n  "error": "Token missing. Log in first."\n}',
+    body: '{\n  "error": "Are you sure hunter ? Try sending again"\n}',
   },
   {
     status: '429 TOO MANY REQUESTS',
     color: RED,
-    body: '{\n  "error": "Slow down, hunter."\n}',
+    body: '{\n  "error": "Slow down hunter. isn\'t it getting too much ?"\n}',
   },
+  {
+    status: '200 OK',
+    color: CYAN,
+    body: '{\n  "answer": "Maybe you are now on the right track"\n "next": "<Given-url>/api/cat"\n}',
+  },  
 ];
 
 /* ---------- small pixel pieces ---------- */
